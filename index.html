@@ -1,235 +1,65 @@
+<!DOCTYPE html>
 <html>
- <style>img[alt="www.000webhost.com"]{display:none;}</style>﻿
 <head>
-  <title> Tải Tool | AN ORIN</title> 
-  <link rel="SHORTCUT ICON" href="https://i.postimg.cc/J45bYVm6/18722ed6-72e2-4ae5-8a55-8ad1bbd665a7.jpg"> 
-  <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <!--link rel="stylesheet" type="text/css" href="css/style.css"--> 
-  <style>
-            *{
-                margin: 0;
-                padding: 0;
-            }
+	<meta charset="UTF-8">
+	<title>TOOL_AUTO_MESSENGER</title>
+	<style>
+		#main{
+			width: 600px;
+			margin: 0px auto;
+		}
+		h2.title{
+			color: red;
+			text-align: center;
+		}
+		div#f_dien{
+			color: green;
+			box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+			box-sizing: inherit;
+			margin-bottom: 10px;
+			padding: 20px;
+			box-sizing: inherit;
+			line-height: 1.6em;
+			padding: 15px;
+			
+		}
+		#cookie{
+			width: 575px;
+		}
+		#user{
+			width: 575px;
+		}
+		
+		#right{
+			text-align: right;
+		}
+		
+	</style>
+</head>
+<body>
+<div id="main">
+	<h2 class="title" >TOOL AUTO MESSENGER VERSION WEB</h2>
 
-            .top-header{
-                padding-top: 7px;
-                background-color: black;
-                color: rgb(255, 8, 0);
-            }
-            body{
-                background-color: rgb(255, 255, 255);
-                width: 100%;
-                color: black;
-                font-family:verdana;
-                
-            }
+<div id="f_dien">
+<form action="auto.php" method="post">
+	 <label>Cookie:</label><br>
+    <input id="cookie" name="cookie" type="text" value=""><br>
 
-            .tt{
-                text-align:left;
-                padding-left: 29px;
-                color: #0066ff;
-                font-size: 41px;
-            }
-            .tool{
-                padding-right: 10px;
-                text-align:right;
-                color: rgb(255, 255, 255);
-                font-size: 41px;
-            }
-          
-            .link{
-                padding: 10px 10px;
-                font-size: 15px;
-            }
-            a{
-                text-decoration: none;
-                color: #6e00ff;
-            }
-            a:hover{
-                text-decoration: none;
-                color: #0066ff;
-            }
-            p{
-                
-                font-size: 14px;
-            }
-            .banner{
-                width: 650px;
-            }
-            .web{
-                padding-left: 10px;
-                padding-right: 10px;
-            }
-            .content{
-                width: 600px;
-            }
-            .h3{
-                   font-size: 20px; 
-                   font-weight: 700; 
-                }
-            .logo{
-                width:75%;
-                
-            }
-            
-            .button{
-              background-color: #4CAF50; /* Green */
-              border: none;
-              color: white;
-              padding: 3px;
-              text-align: center;
-              text-decoration: none;
-              display: inline-block;
-              font-size: 11px;
-              border-radius: 10%;
-            }
-            .button:hover{
-                background-color: #yellow;
-            }
-            @media screen and (max-width: 980px){
-                .banner{
-                        width: 550px;
-                            }
-                p{
-                
-                font-size: 12px;
-                }
-                .tt{
-                    padding-left: 13px;
-                    color: #0066ff;
-                    font-size: 39px;
-                }
-                .tool{
-                    color: rgb(255, 255, 255);
-                    padding-right: 4px;
-                    font-size: 39px;
-                }
-                .content{
-                    width: 500px;
-                }
-                .h3{
-                   font-size: 14px; 
-                }
-                
-            }
-            
-            @media screen and (max-width: 580px){
-                .button{
-              background-color: #4CAF50; /* Green */
-              border: none;
-              color: white;
-              padding: 1px;
-              text-align: center;
-              text-decoration: none;
-              display: inline-block;
-              font-size: 6px;
-              border-radius: 12%;
-            }
-                .banner{
-                        width: 330px;
-                            }
-                p{
-                
-                font-size: 8px;
-                }
-                .tt{
-                    padding-left: 8.5px;
-                    color: #0066ff;
-                    font-size: 18px;
-                }
-                .tool{
-                    color: rgb(255, 255, 255);
-                    padding-right: 4px;
-                    font-size: 18px;
-                }
-                .content{
-                    width: 300px;
-                }
-                .h3{
-                   font-size: 10px; 
-                   
-                }
-                
-            }
-            
-        </style> 
-  <meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="> 
-  <meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="> 
-  <meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="> 
-  <link rel="preload" href="https://adservice.google.com.vn/adsid/integrator.js?domain=www.tranthuongtv.name.vn" as="script"> 
-  <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.tranthuongtv.name.vn" as="script"> 
-  <meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="> 
-  <meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="> 
-  <meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="> 
- </head> 
- <body> 
-  <div class="web" width="80%" heigh="auto" align="center"> 
-   <br> 
-   <p width="590px" align="center">TẢI TOOL MIỄN PHÍ</p> 
-   <hr> 
-   <table border="0" class="banner"> 
-    <tbody> 
-     <tr> 
-      <td width="250px"> 
-       <!--b><span class="tttool"><span class="tt">TT</span><span class="tool"> TOOL</span></span></b--> <img src="https://i.postimg.cc/J45bYVm6/18722ed6-72e2-4ae5-8a55-8ad1bbd665a7.jpg" class="logo" align="right"> </td> 
-      <td width="330px" class="link"> <p><font color="#0066ff">Zalo:</font><a target="_blank" href="https://zalo.me/g/zwuluk519"><font color="#009b00">https://zalo.me/g/zwuluk519</font></a></p> <p><font color="#009b00">Group FB:</font><a target="_blank" href="https://www.facebook.com/groups/498562511843475/?ref=share_group_link"><font color="black">fb.com/498562511843475</font></a></p> <p><font color="red">Youtube:</font><a target="_blank" href="https://youtube.com/c/AnOrin"><font color="#ff8d00"><b>An Orin</b></font></a> </p>
-     </tr> 
-     <tr> 
-     </tr> 
-     <!--tr>
-                        <td>
+    <label>User-agent:</label><br>
+    <input id="user" name="user" type="text" value=""><br>
 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Youtube:</td>
-                    </tr>
-                    <tr>
-                        <td>Link key:</td>
-                    </tr--> 
-    </tbody> 
-   </table> 
-   <br> 
-   <table border="0" width="550px" height="auto" class="content" align="center"> 
-    <tbody> 
-     <tr> 
-     </tr> 
-     <tr> 
-     </tr> 
-     <tr> 
-      <td> <p class="h3"><br>TẢI TOOL</p> <p> - Link tool anorintool.php mới: <a target="_blank" href="https://www.mediafire.com/file/ju4djczwy0ze2i1/anorintool.php/file">Bấm vào đây</a></p> <p> - Lệnh vào tool: <span id="lenhvao">cd /sdcard/download &amp;&amp; php anorintool.php </span><button onclick="copyToClipboard('#lenhvao')" class="button">Copy</button></p> <p>  - Cách lấy key: <a target="_blank" href="https://www.youtube.com/watch?v=9q9tvxCydlY">Xem Hướng Dẫn </a></p></td> 
-     </tr> 
-     <tr> 
-      <td> <p class="h3"><br>CÁC LƯU Ý</p> <p> - Tài khoản facebook mỗi người là khác nhau vì vậy delay Min Max sẽ không giống nhau được, có người delay 0s không bị cấm tương tác, cũng có người delay 10-20 vẫn vị cấm vì vậy mới chạy tool nên xem kỹ video hướng dẫn và cài đặt delay cao từ 20-40. </p> <p> - Vì đây chỉ là tool tự động, nó chỉ tự động thực hiện công việc giúp ta và việc thực hiện đi thực hiện lại 1 công việc có thể dẫn đến tài khoản, bị cấm tương tác 24h, nặng hơn có thể bị checkpoin hay còn gọi là khóa tài khoản. </p> </td> 
-     </tr> 
-     <tr> 
-      <td> <p class="h3"><br>HƯỚNG DẪN</p> <p> - Lấy token và id Facebook dễ dàng tại đây: <a target="_blank" href="https://youtu.be/j102U5hQIb8">Xem</a></p> <p> - Giới thiệu, hướng dẫn sử dụng web Traodoisub, Tuongtaccheo: <a target="_blank" href="https://www.youtube.com/watch?v=eW7bfXYArXw">Xem</a></p> <p> - Cách tải và setups Termux để chạy tool trên Android: <a target="_blank" href="https://youtu.be/Ukd9qHNg0OQ">Xem</a></p> <p> - Cách tải và setups ISh Shell để chạy tool trên ios iPhone: <a target="_blank" href="https://www.youtube.com/watch?v=XiKNpiFoDZI&amp;ab_channel=KingOfAOV">Xem</a></p> <p> - Cách chạy tool trên máy tính: <a target="_blank" href="https://www.youtube.com/watch?v=mT417c93HWo">Xem</a></p> <p> - Cách chạy tool (những video share tool đều hướng dẫ cách chạy): <a target="_blank" href="https://www.youtube.com/channel/UCFPCSDuKIm7PpIC-RdjRfww">Xem</a></p> <p> - Cách lấy cokie token mới nhất: <a target="_blank" href="https://www.youtube.com/watch?v=NVN4lnBUJlY&amp;t=14s&amp;ab_channel=KingOfAOV">Xem</a></p> <p> - Cách nhân bản ứng dụng để chạy nhiều tài khoản: <a target="_blank" href="https://www.youtube.com/watch?v=66AxEB4xeYc&amp;t=39s&amp;ab_channel=Tr%E1%BA%A7nTh%C6%B0%C6%A1ngTV">Xem</a></p> <p> - Cách mở không giới hạn tab Termux: <a target="_blank" href="https://tooltranthuong.blogspot.com/2021/08/cach-mo-khong-gioi-han-tab-termux.html">Xem</a></p> <p> - Die cookie hoặc token thì cứ đăng nhập và lấy token như lúc đầu</p> <p> - Các vấn đề còn lại có thể vào nhóm <a target="_blank" href="https://zalo.me/g/zwuluk519">Zalo</a> để hỏi</p> <br><br> <p> <a target="_blank" href=""></a></p> <p> <a target="_blank" href=""></a></p> </td> 
-     </tr> 
-     <tr> 
-      <!--td align="center">
-                            <iframe  src="https://www.facebook.com/plugins/group.php?href=https://www.facebook.com/groups/091102t&width=280&show_metadata=false&appId=1900732326672850&height=239" width="280" height="239" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        </td--> 
-     </tr> 
-    </tbody> 
-   </table> 
-  </div> 
-  <br> 
-  <hr> 
-  <br> 
-  <script>
-        function copyToClipboard(element) {
-          var $temp = $("<input>");
-          $("body").append($temp);
-          $temp.val($(element).text()).select();
-          document.execCommand("copy");
-          $temp.remove();
-        }
-    </script> 
-  <ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"> 
-   <div id="aswift_0_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"> 
-    <iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7162399590133794&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1658121707&amp;plat=16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C32%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fwww.tranthuongtv.name.vn%2FKing_Of_Aov%2F&amp;ea=0&amp;pra=5&amp;wgl=1&amp;dt=1658121706843&amp;bpp=14&amp;bdt=155&amp;idt=214&amp;shv=r20220707&amp;mjsv=m202207130101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D3086df4b983eadfc-22621da539d500ce%3AT%3D1658121278%3ART%3D1658121278%3AS%3DALNI_MYTnber-0m2wzSQcsslyrof9n--kA&amp;gpic=UID%3D000007d20d30eb4d%3AT%3D1658121278%3ART%3D1658121278%3AS%3DALNI_MZcFwS6ouBZVCGA44ZXBpolHbj9IA&amp;nras=1&amp;correlator=6306771886168&amp;frm=20&amp;pv=2&amp;ga_vid=1098235027.1658121707&amp;ga_sid=1658121707&amp;ga_hid=866967388&amp;ga_fc=0&amp;u_tz=420&amp;u_his=5&amp;u_h=779&amp;u_w=351&amp;u_ah=779&amp;u_aw=351&amp;u_cd=24&amp;u_sd=2.056&amp;dmc=2&amp;adx=-12245933&amp;ady=-12245933&amp;biw=351&amp;bih=614&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759842%2C31067527%2C31068443%2C44768689&amp;oid=2&amp;pvsid=625749253721039&amp;tmod=1411912494&amp;uas=0&amp;nvt=1&amp;eae=2&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C351%2C0%2C351%2C614%2C351%2C614&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=290" data-google-container-id="a!1" data-load-complete="true"></iframe> 
-   </div></ins> 
-  <iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20220707/r20190131/zrt_lookup.html" style="display: none;"></iframe> 
- </body>
+    <input id="button" type="submit" name="submit" value="Đăng Nhập">
+</form>
+</div>
+
+<div id="right">
+	<h2 class="ib">IB Admin</h2>
+	<a href="https://www.facebook.com/khang.hoa.1217" ><img width="100px" src="https://scontent.fvca1-1.fna.fbcdn.net/v/t39.30808-6/275328059_1305001893316742_6878705210066283254_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=anDpjWv064gAX9gbg5T&_nc_ht=scontent.fvca1-1.fna&oh=00_AT_2jNG1kdra6r4YC7wGHCPdSbQkSobDBH0PXUcyZed4bw&oe=632A11DF" /><br> </a>
+	<span>Truy Cập: </span><a href="https://www.facebook.com/khang.hoa.1217">Facebook</a><br>
+	<span>Truy Cập: </span><a href="https://t.me/KhangTool">Telegram Cá Nhân</a><br>
+	<span>Truy Cập: </span><a href="https://t.me/KhangToolGroup">Telegram Group</a>
+</div>
+
+</div>
+</body>
 </html>
